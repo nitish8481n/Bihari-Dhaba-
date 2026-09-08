@@ -1,0 +1,44 @@
+{
+  "restaurant": {
+    "name": "Bihari Dhaba",
+    "address": "Station Road, Near Clock Tower, Patna, Bihar 800001",
+    "phone": "+91 98765 43210",
+    "hours": "Every day, 11:00 AM to 11:00 PM",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&destination=Patna+Bihar",
+    "delivery": true,
+    "pickup": true
+  },
+  "offers": [
+    {"name":"Bihari Thali Combo","mrp":329,"price":249,"desc":"Full thali with dal, sabji, sweet & chai"},
+    {"name":"Litti Chokha Combo","mrp":279,"price":219,"desc":"6 littis, chokha, ghee & a hot cup of chai"},
+    {"name":"Family Meal (4)","mrp":1099,"price":899,"desc":"4 thalis, sweets & beverages for the table"}
+  ],
+  "menu": [
+    {"id":"b1","name":"Sattu Paratha","category":"Breakfast","price":129,"veg":true,"desc":"Stuffed roasted gram paratha, curd & pickle"},
+    {"id":"b3","name":"Aloo Puri","category":"Breakfast","price":109,"veg":true,"desc":"Fluffy puris with spiced potato curry","bestseller":true},
+    {"id":"l1","name":"Classic Litti Chokha","category":"Litti Chokha","price":189,"veg":true,"desc":"Sattu litti, baingan-aloo chokha, desi ghee","bestseller":true},
+    {"id":"l2","name":"Litti Chokha (6pc)","category":"Litti Chokha","price":349,"veg":true,"desc":"Family portion, extra ghee & chutney","special":true},
+    {"id":"k1","name":"Matar Kachori","category":"Kachori","price":99,"veg":true,"desc":"Green pea-stuffed kachori, tamarind chutney"},
+    {"id":"k3","name":"Samosa (2pc)","category":"Kachori","price":69,"veg":true,"desc":"Crisp pastry, spiced potato-pea filling","bestseller":true},
+    {"id":"d1","name":"Dal Bhaat Thali","category":"Dal Bhaat","price":169,"veg":true,"desc":"Arhar dal, steamed rice, ghee, papad"},
+    {"id":"s1","name":"Aloo Parwal","category":"Sabji","price":139,"veg":true,"desc":"Pointed gourd & potato, home-style masala"},
+    {"id":"s3","name":"Baingan Bharta","category":"Sabji","price":139,"veg":true,"desc":"Smoky roasted eggplant mash, mildly spiced"},
+    {"id":"p1","name":"Matar Paneer","category":"Paneer Specials","price":219,"veg":true,"desc":"Paneer & green peas in tomato gravy","bestseller":true},
+    {"id":"p3","name":"Shahi Paneer","category":"Paneer Specials","price":239,"veg":true,"desc":"Rich cashew-tomato gravy, mildly spiced"},
+    {"id":"sn1","name":"Veg Samosa (2pc)","category":"Snacks","price":69,"veg":true,"desc":"Classic potato-pea samosa"},
+    {"id":"sn3","name":"Hakka Noodles","category":"Snacks","price":169,"veg":false,"desc":"Wok-tossed noodles with chicken, spicy"},
+    {"id":"be3","name":"Lassi","category":"Beverages","price":69,"veg":true,"desc":"Thick sweet curd lassi, not spicy"},
+    {"id":"t1","name":"Kadak Chai","category":"Tea & Coffee","price":29,"veg":true,"desc":"Strong ginger-cardamom milk tea","bestseller":true},
+    {"id":"t2","name":"Filter Coffee","category":"Tea & Coffee","price":49,"veg":true,"desc":"Freshly brewed, silky foam"},
+    {"id":"sw1","name":"Kala Jamun","category":"Sweets","price":99,"veg":true,"desc":"Caramelised khoya balls in rose syrup, sweet not spicy","bestseller":true},
+    {"id":"sw3","name":"Peda","category":"Sweets","price":79,"veg":true,"desc":"Soft milk fudge, saffron & pistachio, sweet"},
+    {"id":"th1","name":"Bihari Veg Thali","category":"Thali","price":249,"veg":true,"desc":"Dal, rice, roti, 2 sabji, chutney, papad, sweet — mild","bestseller":true},
+    {"id":"th2","name":"Deluxe Thali","category":"Thali","price":329,"veg":true,"desc":"Everything + paneer dish & kheer","special":true},
+    {"id":"th3","name":"Non-Veg Thali","category":"Thali","price":399,"veg":false,"desc":"Dal, rice, roti, mutton curry, sabji, spicy"},
+    {"id":"c1","name":"Litti Chokha Combo","category":"Combos","price":229,"veg":true,"desc":"Litti chokha + chai + sweet"},
+    {"id":"c3","name":"Family Meal (4 people)","category":"Combos","price":899,"veg":true,"desc":"4 thalis + sweets + beverages, feeds 4"},
+    {"id":"sb1","name":"Mutton Curry","category":"Special Bihari Dishes","price":349,"veg":false,"desc":"Bone-in mutton, slow-cooked Bihari masala, spicy","bestseller":true},
+    {"id":"sb2","name":"Bihari Mutton Biryani","category":"Special Bihari Dishes","price":329,"veg":false,"desc":"Fragrant basmati, tender mutton, fried onions, spicy","special":true},
+    {"id":"sb3","name":"Chola Bhature","category":"Special Bihari Dishes","price":149,"veg":true,"desc":"Fluffy fried bhature, spiced chana, mildly spicy"}
+  ]
+}
